@@ -32,6 +32,13 @@ public class testjframe extends JFrame {
 	 * Create the frame.
 	 */
 	public testjframe() {
+		
+			initialize();
+		
+		
+	}
+
+	private void initialize() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
@@ -48,5 +55,7 @@ public class testjframe extends JFrame {
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setBounds(155, 10, 45, 13);
 		panel.add(lblNewLabel);
+		// TODO Auto-generated method stub
+		
 	}
 }
